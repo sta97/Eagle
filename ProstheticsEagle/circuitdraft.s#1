@@ -8723,6 +8723,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <part name="IC1" library="SamacSys_Parts" deviceset="BQ25887RGER" device=""/>
 <part name="IC2" library="TPS54627DDAR" deviceset="TPS54627DDAR" device=""/>
 <part name="AGND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
+<part name="BATTERYIO" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -8898,6 +8899,10 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 </instance>
 <instance part="AGND16" gate="VR1" x="48.26" y="17.78" smashed="yes">
 <attribute name="VALUE" x="45.72" y="12.7" size="1.778" layer="96"/>
+</instance>
+<instance part="BATTERYIO" gate="A" x="-10.16" y="10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="-15.875" y="3.81" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-2.54" y="3.81" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -9361,6 +9366,27 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="35.56" x2="71.12" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="35.56" x2="71.12" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="B+" class="0">
+<segment>
+<pinref part="BATTERYIO" gate="A" pin="1"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="0" width="0.1524" layer="91"/>
+<label x="-12.7" y="-2.54" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="MIDDLE" class="0">
+<segment>
+<pinref part="BATTERYIO" gate="A" pin="2"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="0" width="0.1524" layer="91"/>
+<label x="-10.16" y="0" size="1.778" layer="95" rot="R270"/>
+</segment>
+</net>
+<net name="B-" class="0">
+<segment>
+<pinref part="BATTERYIO" gate="A" pin="3"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="0" width="0.1524" layer="91"/>
+<label x="-7.62" y="0" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 </nets>

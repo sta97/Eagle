@@ -9335,7 +9335,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <wire x1="157.48" y1="38.1" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
 <junction x="149.86" y="38.1"/>
 <junction x="157.48" y="38.1"/>
-<wire x1="157.48" y1="38.1" x2="162.56" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="38.1" x2="165.1" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
