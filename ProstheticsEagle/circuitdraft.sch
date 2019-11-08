@@ -11164,6 +11164,10 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <part name="AGND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="C18" library="capacitor-wima" library_urn="urn:adsk.eagle:library:116" deviceset="C" device="2,5-3" package3d_urn="urn:adsk.eagle:package:5436/1" value="10 uF"/>
 <part name="AGND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
+<<<<<<< Updated upstream
+=======
+<part name="LED" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
+>>>>>>> Stashed changes
 </parts>
 <sheets>
 <sheet>
@@ -11383,6 +11387,13 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <instance part="AGND23" gate="VR1" x="-40.64" y="68.58" smashed="yes"/>
 <instance part="C18" gate="G$1" x="-10.16" y="88.9" smashed="yes" rot="R180"/>
 <instance part="AGND24" gate="VR1" x="17.78" y="-7.62" smashed="yes"/>
+<<<<<<< Updated upstream
+=======
+<instance part="LED" gate="A" x="213.36" y="116.84" smashed="yes">
+<attribute name="NAME" x="207.01" y="125.095" size="1.778" layer="95"/>
+<attribute name="VALUE" x="207.01" y="109.22" size="1.778" layer="96"/>
+</instance>
+>>>>>>> Stashed changes
 </instances>
 <busses>
 </busses>
@@ -11450,6 +11461,11 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <junction x="220.98" y="27.94"/>
 <wire x1="220.98" y1="27.94" x2="228.6" y2="27.94" width="0.1524" layer="91"/>
 <label x="228.6" y="27.94" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LED" gate="A" pin="2"/>
+<wire x1="210.82" y1="119.38" x2="200.66" y2="119.38" width="0.1524" layer="91"/>
+<label x="190.5" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AGND" class="0">
@@ -11602,6 +11618,11 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-5.08" x2="17.78" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="AGND24" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="LED" gate="A" pin="3"/>
+<wire x1="210.82" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
+<label x="193.04" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SIGNAL1" class="0">
@@ -12133,6 +12154,20 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <junction x="-7.62" y="83.82"/>
 <wire x1="-10.16" y1="83.82" x2="-10.16" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="NEOPIXELIN" class="0">
+<segment>
+<pinref part="LED" gate="A" pin="1"/>
+<wire x1="210.82" y1="121.92" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
+<label x="185.42" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="DATAOUT" class="0">
+<segment>
+<pinref part="LED" gate="A" pin="4"/>
+<wire x1="210.82" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
+<label x="190.5" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
