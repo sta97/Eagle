@@ -13833,6 +13833,11 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <wire x1="226.06" y1="91.44" x2="213.36" y2="91.44" width="0.1524" layer="91"/>
 <label x="205.74" y="91.44" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="(ICP3/CLK0/OC4A)PC7"/>
+<wire x1="147.32" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
+<label x="149.86" y="132.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MYOSIGNAL" class="0">
 <segment>
