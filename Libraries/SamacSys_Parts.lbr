@@ -59,6 +59,23 @@
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
+<package name="INDC2016X100N">
+<description>&lt;b&gt;MLP2016&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.85" y="0" dx="1.8" dy="1.2" layer="1" rot="R90" />
+<smd name="2" x="0.85" y="0" dx="1.8" dy="1.2" layer="1" rot="R90" />
+<text x="0" y="0" align="center" size="1.27" layer="25" rot="R0">&gt;NAME</text>
+<text x="0" y="0" align="center" size="1.27" layer="27" rot="R0">&gt;VALUE</text>
+<wire x1="-1.7" y1="1.15" x2="1.7" y2="1.15" width="0.05" layer="51" />
+<wire x1="1.7" y1="1.15" x2="1.7" y2="-1.15" width="0.05" layer="51" />
+<wire x1="1.7" y1="-1.15" x2="-1.7" y2="-1.15" width="0.05" layer="51" />
+<wire x1="-1.7" y1="-1.15" x2="-1.7" y2="1.15" width="0.05" layer="51" />
+<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.1" layer="51" />
+<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.1" layer="51" />
+<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.1" layer="51" />
+<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.1" layer="51" />
+<wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21" />
+</package>
 <package name="QFN50P400X400X100-25N">
 <description>&lt;b&gt;VQFN_24 pin&lt;/b&gt;&lt;br&gt;
 </description>
@@ -113,6 +130,16 @@
 </package>
 </packages>
 <symbols>
+<symbol name="TFM201610GHM-1R0MTAA">
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4" />
+<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4" />
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4" />
+<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4" />
+<text x="16.51" y="6.35" align="center-left" size="1.778" layer="95">&gt;NAME</text>
+<text x="16.51" y="3.81" align="center-left" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle" direction="io" rot="R0" />
+<pin name="2" x="20.32" y="0" visible="pad" length="middle" direction="io" rot="R180" />
+</symbol>
 <symbol name="BQ25887RGER">
 <wire x1="5.08" y1="12.7" x2="25.4" y2="12.7" width="0.254" layer="94" />
 <wire x1="25.4" y1="-25.4" x2="25.4" y2="12.7" width="0.254" layer="94" />
@@ -158,6 +185,31 @@
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="TFM201610GHM-1R0MTAA" prefix="L">
+<description>&lt;b&gt;Fixed Inductors 1.0uH 50mOhms 3.6A 20%&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/TFM201610GHM-1R0MTAA.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TFM201610GHM-1R0MTAA" x="0" y="0" />
+</gates>
+<devices>
+<device name="" package="INDC2016X100N">
+<connects>
+<connect gate="G$1" pin="1" pad="1" />
+<connect gate="G$1" pin="2" pad="2" />
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Mouser_Part_Number" value="810-TFM201610GHM1R0A" constant="no" />
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-TFM201610GHM1R0A" constant="no" />
+<attribute name="Manufacturer_Name" value="TDK" constant="no" />
+<attribute name="Manufacturer_Part_Number" value="TFM201610GHM-1R0MTAA" constant="no" />
+<attribute name="Description" value="Fixed Inductors 1.0uH 50mOhms 3.6A 20%" constant="no" />
+<attribute name="Height" value="1mm" constant="no" />
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="BQ25887RGER" prefix="IC">
 <description>&lt;b&gt;I2C Controlled, 2-cell, 2-A boost-mode battery charger with cell balancing&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.ti.com/lit/gpn/BQ25887"&gt; Datasheet &lt;/a&gt;</description>
