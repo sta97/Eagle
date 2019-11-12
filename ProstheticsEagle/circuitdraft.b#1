@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="10" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -392,6 +392,23 @@
 <circle x="0" y="0" radius="4.35" width="0.2" layer="51"/>
 <circle x="0" y="0" radius="4.35" width="0.2" layer="25"/>
 <circle x="-4.912" y="0.002" radius="0.044" width="0.2" layer="25"/>
+</package>
+<package name="INDC2016X100N">
+<description>&lt;b&gt;MLP2016&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.85" y="0" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="0.85" y="0" dx="1.8" dy="1.2" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.7" y1="1.15" x2="1.7" y2="1.15" width="0.05" layer="51"/>
+<wire x1="1.7" y1="1.15" x2="1.7" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="1.7" y1="-1.15" x2="-1.7" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="-1.7" y1="-1.15" x2="-1.7" y2="1.15" width="0.05" layer="51"/>
+<wire x1="-1" y1="0.8" x2="1" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1" y1="0.8" x2="1" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.8" x2="-1" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.8" x2="-1" y2="0.8" width="0.1" layer="51"/>
+<wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1743,87 +1760,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
-<library name="inductor">
-<packages>
-<package name="IND_IHLP_2020_BZ">
-<smd name="1" x="-2.032" y="0" dx="2.6924" dy="1.9812" layer="1" rot="R90"/>
-<smd name="2" x="2.032" y="0" dx="2.6924" dy="1.9812" layer="1" rot="R90"/>
-<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.1524" layer="39"/>
-<wire x1="-3.2766" y1="1.651" x2="-3.1242" y2="1.651" width="0.1524" layer="39"/>
-<wire x1="3.1242" y1="1.651" x2="3.2766" y2="1.651" width="0.1524" layer="39"/>
-<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.1524" layer="39"/>
-<wire x1="3.2766" y1="-1.651" x2="3.1242" y2="-1.651" width="0.1524" layer="39"/>
-<wire x1="-3.1242" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.1524" layer="39"/>
-<wire x1="-3.1242" y1="-2.9718" x2="-3.1242" y2="-1.651" width="0.1524" layer="39"/>
-<wire x1="-3.1242" y1="1.651" x2="-3.1242" y2="2.9718" width="0.1524" layer="39"/>
-<wire x1="-3.1242" y1="2.9718" x2="3.1242" y2="2.9718" width="0.1524" layer="39"/>
-<wire x1="3.1242" y1="2.9718" x2="3.1242" y2="1.651" width="0.1524" layer="39"/>
-<wire x1="3.1242" y1="-1.651" x2="3.1242" y2="-2.9718" width="0.1524" layer="39"/>
-<wire x1="3.1242" y1="-2.9718" x2="-3.1242" y2="-2.9718" width="0.1524" layer="39"/>
-<polygon width="0.1524" layer="39">
-<vertex x="-3.2766" y="-1.651"/>
-<vertex x="-3.2766" y="1.651"/>
-<vertex x="-3.1242" y="1.651"/>
-<vertex x="-3.1242" y="2.9718"/>
-<vertex x="3.1242" y="2.9718"/>
-<vertex x="3.1242" y="1.651"/>
-<vertex x="3.2766" y="1.651"/>
-<vertex x="3.2766" y="-1.651"/>
-<vertex x="3.1242" y="-1.651"/>
-<vertex x="3.1242" y="-2.9718"/>
-<vertex x="-3.1242" y="-2.9718"/>
-<vertex x="-3.1242" y="-1.651"/>
-</polygon>
-<wire x1="-2.9972" y1="-2.8448" x2="2.9972" y2="-2.8448" width="0.1524" layer="21"/>
-<wire x1="2.9972" y1="-2.8448" x2="2.9972" y2="-1.6764" width="0.1524" layer="21"/>
-<wire x1="2.9972" y1="2.8448" x2="-2.9972" y2="2.8448" width="0.1524" layer="21"/>
-<wire x1="-2.9972" y1="2.8448" x2="-2.9972" y2="1.6764" width="0.1524" layer="21"/>
-<wire x1="-2.9972" y1="-1.6764" x2="-2.9972" y2="-2.8448" width="0.1524" layer="21"/>
-<wire x1="2.9972" y1="1.6764" x2="2.9972" y2="2.8448" width="0.1524" layer="21"/>
-<wire x1="-4.064" y1="0" x2="-4.2164" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.2164" y1="0" x2="-4.064" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.8702" y1="-2.7178" x2="2.8702" y2="-2.7178" width="0.1524" layer="51"/>
-<wire x1="2.8702" y1="-2.7178" x2="2.8702" y2="2.7178" width="0.1524" layer="51"/>
-<wire x1="2.8702" y1="2.7178" x2="-2.8702" y2="2.7178" width="0.1524" layer="51"/>
-<wire x1="-2.8702" y1="2.7178" x2="-2.8702" y2="-2.7178" width="0.1524" layer="51"/>
-<wire x1="-2.286" y1="0" x2="-2.4384" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-2.4384" y1="0" x2="-2.286" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
-<wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.9906" y="1.4478"/>
-<vertex x="0.9906" y="1.4478"/>
-<vertex x="0.9906" y="-1.4478"/>
-<vertex x="-0.9906" y="-1.4478"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.9906" y="1.4478"/>
-<vertex x="0.9906" y="1.4478"/>
-<vertex x="0.9906" y="-1.4478"/>
-<vertex x="-0.9906" y="-1.4478"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-0.9906" y="1.4478"/>
-<vertex x="0.9906" y="1.4478"/>
-<vertex x="0.9906" y="-1.4478"/>
-<vertex x="-0.9906" y="-1.4478"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-2.8194" y="2.667"/>
-<vertex x="2.8194" y="2.667"/>
-<vertex x="2.8194" y="1.4478"/>
-<vertex x="-2.8194" y="1.4478"/>
-</polygon>
-<polygon width="0.1524" layer="41">
-<vertex x="-2.8194" y="-1.4478"/>
-<vertex x="2.8194" y="-1.4478"/>
-<vertex x="2.8194" y="-2.667"/>
-<vertex x="-2.8194" y="-2.667"/>
-</polygon>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2058,9 +1994,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="63" x="60.88" y="45.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="21.51" y="19.95" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10 uF" x="41.25" y="8.78" smashed="yes">
-<attribute name="POPULARITY" value="63" x="89.51" y="-22.97" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="41.25" y="8.78" size="1.778" layer="27" display="off"/>
+<element name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10 uF" x="42.25" y="8.78" smashed="yes">
+<attribute name="POPULARITY" value="63" x="90.51" y="-22.97" size="1.778" layer="27" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="42.25" y="8.78" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22pF" x="25.5" y="6.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="27.151" y="4.882" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
@@ -2132,10 +2068,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-RLB0912-3R3ML" x="10.74" y="16.07" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="68.25686875" y="10.92411875" size="1.27" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
 </element>
-<element name="L2" library="inductor" package="IND_IHLP_2020_BZ" value="1 uH" x="37.08" y="5.93" locked="yes" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER_PART_NUMBER" value="IHLP2020BZER1R0M01" x="37.08" y="5.93" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="L2" library="SamacSys_Parts" package="INDC2016X100N" value="1 uH" x="37.08" y="5.93" locked="yes" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Fixed Inductors 1.0uH 50mOhms 3.6A 20%" x="37.08" y="5.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1mm" x="37.08" y="5.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="37.08" y="5.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TFM201610GHM-1R0MTAA" x="37.08" y="5.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-TFM201610GHM1R0A" x="37.08" y="5.93" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-TFM201610GHM1R0A" x="37.08" y="5.93" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="36.5974" y="7.5556" locked="yes" size="0.9906" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
-<attribute name="VENDOR" value="Vishay" x="37.08" y="5.93" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="MYO" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="27.12" y="32.65" smashed="yes">
 <attribute name="NAME" x="31.3312" y="33.6238" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
@@ -2213,10 +2153,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="77" x="106.03" y="24.06" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="106.03" y="24.06" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10000 Ohms" x="39.31" y="4.27" smashed="yes" rot="R270">
-<attribute name="NAME" x="39.3054" y="2.61" size="0.9906" layer="25" font="vector" ratio="10" rot="R270"/>
-<attribute name="POPULARITY" value="77" x="-22.92" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="-22.92" y="-27.48" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10000 Ohms" x="41.728" y="3.699" smashed="yes" rot="R270">
+<attribute name="NAME" x="41.7234" y="2.039" size="0.9906" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="POPULARITY" value="77" x="-20.502" y="-28.051" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="-20.502" y="-28.051" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="S1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="44.27" y="26.05" smashed="yes">
 <attribute name="NAME" x="40.3838" y="27.4788" size="1.27" layer="25" font="vector" ratio="10"/>
@@ -2378,8 +2318,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="35.14" y1="13.06" x2="37.44" y2="13.01" width="0" layer="19" extent="1-1"/>
 <wire x1="35.14" y1="12.56" x2="35.14" y2="13.06" width="0" layer="19" extent="1-1"/>
 <wire x1="29.12" y1="11.83" x2="35.14" y2="12.56" width="0" layer="19" extent="1-1"/>
-<wire x1="39.31" y1="3.42" x2="37.44" y2="13.01" width="0" layer="19" extent="1-1"/>
-<wire x1="40.92" y1="1.2" x2="39.31" y2="3.42" width="0" layer="19" extent="1-1"/>
+<wire x1="41.728" y1="2.849" x2="37.44" y2="13.01" width="0" layer="19" extent="1-1"/>
+<wire x1="40.92" y1="1.2" x2="41.728" y2="2.849" width="0" layer="19" extent="1-1"/>
 <wire x1="43.8" y1="4.59" x2="40.92" y2="1.2" width="0" layer="19" extent="1-1"/>
 <wire x1="25.51" y1="22.83" x2="29.12" y2="11.83" width="0" layer="19" extent="1-1"/>
 <wire x1="21.51" y1="20.9" x2="25.51" y2="22.83" width="0" layer="19" extent="1-1"/>
@@ -2533,7 +2473,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$7">
 <contactref element="IC1" pad="1"/>
 <contactref element="R9" pad="1"/>
-<wire x1="39.31" y1="5.12" x2="34.39" y2="13.81" width="0" layer="19" extent="1-1"/>
+<wire x1="41.728" y1="4.549" x2="34.39" y2="13.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INT">
 <contactref element="IC1" pad="6"/>
@@ -2574,8 +2514,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="IC1" pad="17"/>
 <contactref element="C15" pad="1"/>
 <contactref element="L2" pad="2"/>
-<wire x1="37.08" y1="3.898" x2="33.89" y2="9.81" width="0" layer="19" extent="1-1"/>
-<wire x1="31.42" y1="2" x2="37.08" y2="3.898" width="0" layer="19" extent="1-1"/>
+<wire x1="37.08" y1="5.08" x2="33.89" y2="9.81" width="0" layer="19" extent="1-1"/>
+<wire x1="31.42" y1="2" x2="37.08" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BTST">
 <contactref element="C15" pad="2"/>
@@ -2591,8 +2531,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="IC1" pad="21"/>
 <contactref element="L2" pad="1"/>
 <contactref element="C18" pad="1"/>
-<wire x1="37.08" y1="7.962" x2="40.3" y2="8.78" width="0" layer="19" extent="1-1"/>
-<wire x1="35.14" y1="11.56" x2="37.08" y2="7.962" width="0" layer="19" extent="1-1"/>
+<wire x1="37.08" y1="6.78" x2="41.3" y2="8.78" width="0" layer="19" extent="1-1"/>
+<wire x1="35.14" y1="11.56" x2="37.08" y2="6.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DATAIN">
 <contactref element="LED" pad="3"/>
