@@ -10542,9 +10542,9 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22pF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 pF"/>
 <part name="AGND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10 pF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10 pF"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value=".1 pF"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10 uF"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10 uF"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value=".1 uF"/>
 <part name="AGND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10000 Ohms"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="124000 Ohms"/>
@@ -10554,8 +10554,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF"/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1 uF"/>
 <part name="L1" library="SamacSys_Parts" deviceset="RLB0912-3R3ML" device=""/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 pF"/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 pF"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 uF"/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 uF"/>
 <part name="AGND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="IC1" library="SamacSys_Parts" deviceset="BQ25887RGER" device=""/>
@@ -10691,19 +10691,19 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <attribute name="VALUE" x="200.66" y="20.32" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C4" gate="G$1" x="182.88" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="185.039" y="65.024" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="179.959" y="65.024" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="178.816" y="68.199" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="181.356" y="65.659" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C5" gate="G$1" x="193.04" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="195.199" y="65.024" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="190.119" y="65.024" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="196.596" y="65.659" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="191.516" y="65.659" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C6" gate="G$1" x="205.74" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="207.899" y="65.024" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="202.819" y="65.024" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="209.296" y="65.659" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="204.216" y="65.659" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="AGND12" gate="VR1" x="210.82" y="63.5" smashed="yes">
-<attribute name="VALUE" x="208.28" y="58.42" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="218.44" y="66.04" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R3" gate="G$1" x="177.8" y="50.8" smashed="yes">
 <attribute name="NAME" x="176.7586" y="52.07" size="1.778" layer="95"/>
@@ -10722,7 +10722,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <attribute name="VALUE" x="158.75" y="31.242" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C8" gate="G$1" x="182.88" y="38.1" smashed="yes">
-<attribute name="NAME" x="180.721" y="41.656" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="188.341" y="31.496" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="185.801" y="41.656" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C9" gate="G$1" x="172.72" y="38.1" smashed="yes">
@@ -10730,7 +10730,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/tps54627"&gt; Datasheet &lt;/a&gt;
 <attribute name="VALUE" x="175.641" y="41.656" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C10" gate="G$1" x="228.6" y="48.26" smashed="yes" rot="R270">
-<attribute name="NAME" x="232.156" y="50.419" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="234.696" y="50.419" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="232.156" y="45.339" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="L1" gate="G$1" x="236.22" y="45.72" smashed="yes">
