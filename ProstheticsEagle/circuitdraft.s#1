@@ -8846,17 +8846,6 @@ Source: AVX .. aphvc.pdf</description>
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="RLB0914">
-<description>&lt;b&gt;RLB0914&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="-2.5" y="0" drill="0.85" diameter="1.35"/>
-<pad name="2" x="2.5" y="0" drill="0.85" diameter="1.35"/>
-<text x="-0.36686875" y="0.06588125" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.36686875" y="0.06588125" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<circle x="0" y="0" radius="4.35" width="0.2" layer="51"/>
-<circle x="0" y="0" radius="4.35" width="0.2" layer="25"/>
-<circle x="-4.912" y="0.002" radius="0.044" width="0.2" layer="25"/>
-</package>
 <package name="QFN50P400X400X100-25N">
 <description>&lt;b&gt;VQFN_24 pin&lt;/b&gt;&lt;br&gt;
 </description>
@@ -8917,16 +8906,6 @@ Source: AVX .. aphvc.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="RLB0912-3R3ML">
-<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<wire x1="12.7" y1="0" x2="15.24" y2="0" width="0.254" layer="94" curve="-175.4"/>
-<text x="16.51" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="16.51" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="0" y="0" visible="pad" length="middle"/>
-<pin name="2" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
-</symbol>
 <symbol name="BQ25887RGER">
 <wire x1="5.08" y1="12.7" x2="25.4" y2="12.7" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-25.4" x2="25.4" y2="12.7" width="0.254" layer="94"/>
@@ -8972,31 +8951,6 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RLB0912-3R3ML" prefix="L">
-<description>&lt;b&gt;Radial Fixed Through Hole Inductor 3.3uH Bourns 3.3 uH +/-20% Ferrite Radial Inductor, Max SRF:50MHz, Q:30, 3.6A Idc, 0.018 Rdc RLB&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/RLB0912-3R3ML.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="RLB0912-3R3ML" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RLB0914">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Radial Fixed Through Hole Inductor 3.3uH Bourns 3.3 uH +/-20% Ferrite Radial Inductor, Max SRF:50MHz, Q:30, 3.6A Idc, 0.018 Rdc RLB" constant="no"/>
-<attribute name="HEIGHT" value="mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RLB0912-3R3ML" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-RLB0912-3R3ML" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-RLB0912-3R3ML" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="BQ25887RGER" prefix="IC">
 <description>&lt;b&gt;I2C Controlled, 2-cell, 2-A boost-mode battery charger with cell balancing&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.ti.com/lit/gpn/BQ25887"&gt; Datasheet &lt;/a&gt;</description>
@@ -9872,6 +9826,304 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="ind2">
+<packages>
+<package name="IND_IHLP-2020CZ">
+<smd name="1" x="-2.032" y="0" dx="2.6924" dy="1.9812" layer="1" rot="R90"/>
+<smd name="2" x="2.032" y="0" dx="2.6924" dy="1.9812" layer="1" rot="R90"/>
+<wire x1="-3.2766" y1="-1.651" x2="-3.2766" y2="1.651" width="0.1524" layer="39"/>
+<wire x1="-3.2766" y1="1.651" x2="-3.1242" y2="1.651" width="0.1524" layer="39"/>
+<wire x1="3.1242" y1="1.651" x2="3.2766" y2="1.651" width="0.1524" layer="39"/>
+<wire x1="3.2766" y1="1.651" x2="3.2766" y2="-1.651" width="0.1524" layer="39"/>
+<wire x1="3.2766" y1="-1.651" x2="3.1242" y2="-1.651" width="0.1524" layer="39"/>
+<wire x1="-3.1242" y1="-1.651" x2="-3.2766" y2="-1.651" width="0.1524" layer="39"/>
+<wire x1="-3.1242" y1="-2.9718" x2="-3.1242" y2="-1.651" width="0.1524" layer="39"/>
+<wire x1="-3.1242" y1="1.651" x2="-3.1242" y2="2.9718" width="0.1524" layer="39"/>
+<wire x1="-3.1242" y1="2.9718" x2="3.1242" y2="2.9718" width="0.1524" layer="39"/>
+<wire x1="3.1242" y1="2.9718" x2="3.1242" y2="1.651" width="0.1524" layer="39"/>
+<wire x1="3.1242" y1="-1.651" x2="3.1242" y2="-2.9718" width="0.1524" layer="39"/>
+<wire x1="3.1242" y1="-2.9718" x2="-3.1242" y2="-2.9718" width="0.1524" layer="39"/>
+<polygon width="0.1524" layer="39">
+<vertex x="-3.2766" y="-1.651"/>
+<vertex x="-3.2766" y="1.651"/>
+<vertex x="-3.1242" y="1.651"/>
+<vertex x="-3.1242" y="2.9718"/>
+<vertex x="3.1242" y="2.9718"/>
+<vertex x="3.1242" y="1.651"/>
+<vertex x="3.2766" y="1.651"/>
+<vertex x="3.2766" y="-1.651"/>
+<vertex x="3.1242" y="-1.651"/>
+<vertex x="3.1242" y="-2.9718"/>
+<vertex x="-3.1242" y="-2.9718"/>
+<vertex x="-3.1242" y="-1.651"/>
+</polygon>
+<wire x1="-2.9972" y1="-2.8448" x2="2.9972" y2="-2.8448" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="-2.8448" x2="2.9972" y2="-1.6764" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="2.8448" x2="-2.9972" y2="2.8448" width="0.1524" layer="21"/>
+<wire x1="-2.9972" y1="2.8448" x2="-2.9972" y2="1.6764" width="0.1524" layer="21"/>
+<wire x1="-2.9972" y1="-1.6764" x2="-2.9972" y2="-2.8448" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="1.6764" x2="2.9972" y2="2.8448" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="0" x2="-4.2164" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.2164" y1="0" x2="-4.064" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.8702" y1="-2.7178" x2="2.8702" y2="-2.7178" width="0.1524" layer="51"/>
+<wire x1="2.8702" y1="-2.7178" x2="2.8702" y2="2.7178" width="0.1524" layer="51"/>
+<wire x1="2.8702" y1="2.7178" x2="-2.8702" y2="2.7178" width="0.1524" layer="51"/>
+<wire x1="-2.8702" y1="2.7178" x2="-2.8702" y2="-2.7178" width="0.1524" layer="51"/>
+<wire x1="-2.286" y1="0" x2="-2.4384" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-2.4384" y1="0" x2="-2.286" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
+<wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9906" y="1.4478"/>
+<vertex x="0.9906" y="1.4478"/>
+<vertex x="0.9906" y="-1.4478"/>
+<vertex x="-0.9906" y="-1.4478"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9906" y="1.4478"/>
+<vertex x="0.9906" y="1.4478"/>
+<vertex x="0.9906" y="-1.4478"/>
+<vertex x="-0.9906" y="-1.4478"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.9906" y="1.4478"/>
+<vertex x="0.9906" y="1.4478"/>
+<vertex x="0.9906" y="-1.4478"/>
+<vertex x="-0.9906" y="-1.4478"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-2.8194" y="2.667"/>
+<vertex x="2.8194" y="2.667"/>
+<vertex x="2.8194" y="1.4478"/>
+<vertex x="-2.8194" y="1.4478"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-2.8194" y="-1.4478"/>
+<vertex x="2.8194" y="-1.4478"/>
+<vertex x="2.8194" y="-2.667"/>
+<vertex x="-2.8194" y="-2.667"/>
+</polygon>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="IND_IHLP-2020CZ-M">
+<smd name="1" x="-1.9431" y="0" dx="2.794" dy="2.3622" layer="1" rot="R90"/>
+<smd name="2" x="1.9431" y="0" dx="2.794" dy="2.3622" layer="1" rot="R90"/>
+<wire x1="-3.6322" y1="-1.905" x2="-3.6322" y2="1.905" width="0.1524" layer="39"/>
+<wire x1="-3.6322" y1="1.905" x2="-3.3782" y2="1.905" width="0.1524" layer="39"/>
+<wire x1="3.3782" y1="1.905" x2="3.6322" y2="1.905" width="0.1524" layer="39"/>
+<wire x1="3.6322" y1="1.905" x2="3.6322" y2="-1.905" width="0.1524" layer="39"/>
+<wire x1="3.6322" y1="-1.905" x2="3.3782" y2="-1.905" width="0.1524" layer="39"/>
+<wire x1="-3.3782" y1="-1.905" x2="-3.6322" y2="-1.905" width="0.1524" layer="39"/>
+<wire x1="-3.3782" y1="-3.2258" x2="-3.3782" y2="-1.905" width="0.1524" layer="39"/>
+<wire x1="-3.3782" y1="1.905" x2="-3.3782" y2="3.2258" width="0.1524" layer="39"/>
+<wire x1="-3.3782" y1="3.2258" x2="3.3782" y2="3.2258" width="0.1524" layer="39"/>
+<wire x1="3.3782" y1="3.2258" x2="3.3782" y2="1.905" width="0.1524" layer="39"/>
+<wire x1="3.3782" y1="-1.905" x2="3.3782" y2="-3.2258" width="0.1524" layer="39"/>
+<wire x1="3.3782" y1="-3.2258" x2="-3.3782" y2="-3.2258" width="0.1524" layer="39"/>
+<polygon width="0.1524" layer="39">
+<vertex x="-3.6322" y="-1.905"/>
+<vertex x="-3.6322" y="1.905"/>
+<vertex x="-3.3782" y="1.905"/>
+<vertex x="-3.3782" y="3.2258"/>
+<vertex x="3.3782" y="3.2258"/>
+<vertex x="3.3782" y="1.905"/>
+<vertex x="3.6322" y="1.905"/>
+<vertex x="3.6322" y="-1.905"/>
+<vertex x="3.3782" y="-1.905"/>
+<vertex x="3.3782" y="-3.2258"/>
+<vertex x="-3.3782" y="-3.2258"/>
+<vertex x="-3.3782" y="-1.905"/>
+</polygon>
+<wire x1="-2.9972" y1="-2.8448" x2="2.9972" y2="-2.8448" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="-2.8448" x2="2.9972" y2="-1.7272" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="2.8448" x2="-2.9972" y2="2.8448" width="0.1524" layer="21"/>
+<wire x1="-2.9972" y1="2.8448" x2="-2.9972" y2="1.7272" width="0.1524" layer="21"/>
+<wire x1="-2.9972" y1="-1.7272" x2="-2.9972" y2="-2.8448" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="1.7272" x2="2.9972" y2="2.8448" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="0" x2="-4.2164" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.2164" y1="0" x2="-4.064" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.8702" y1="-2.7178" x2="2.8702" y2="-2.7178" width="0.1524" layer="51"/>
+<wire x1="2.8702" y1="-2.7178" x2="2.8702" y2="2.7178" width="0.1524" layer="51"/>
+<wire x1="2.8702" y1="2.7178" x2="-2.8702" y2="2.7178" width="0.1524" layer="51"/>
+<wire x1="-2.8702" y1="2.7178" x2="-2.8702" y2="-2.7178" width="0.1524" layer="51"/>
+<wire x1="-2.286" y1="0" x2="-2.4384" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-2.4384" y1="0" x2="-2.286" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
+<wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.7112" y="1.4478"/>
+<vertex x="0.7112" y="1.4478"/>
+<vertex x="0.7112" y="-1.4478"/>
+<vertex x="-0.7112" y="-1.4478"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.7112" y="1.4478"/>
+<vertex x="0.7112" y="1.4478"/>
+<vertex x="0.7112" y="-1.4478"/>
+<vertex x="-0.7112" y="-1.4478"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-0.7112" y="1.4478"/>
+<vertex x="0.7112" y="1.4478"/>
+<vertex x="0.7112" y="-1.4478"/>
+<vertex x="-0.7112" y="-1.4478"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-2.8194" y="2.667"/>
+<vertex x="2.8194" y="2.667"/>
+<vertex x="2.8194" y="1.4478"/>
+<vertex x="-2.8194" y="1.4478"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-2.8194" y="-1.4478"/>
+<vertex x="2.8194" y="-1.4478"/>
+<vertex x="2.8194" y="-2.667"/>
+<vertex x="-2.8194" y="-2.667"/>
+</polygon>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+<package name="IND_IHLP-2020CZ-L">
+<smd name="1" x="-2.1463" y="0" dx="2.5908" dy="1.6002" layer="1" rot="R90"/>
+<smd name="2" x="2.1463" y="0" dx="2.5908" dy="1.6002" layer="1" rot="R90"/>
+<wire x1="-3.048" y1="-1.4986" x2="-3.048" y2="1.4986" width="0.1524" layer="39"/>
+<wire x1="-3.048" y1="1.4986" x2="-2.9718" y2="1.4986" width="0.1524" layer="39"/>
+<wire x1="2.9718" y1="1.4986" x2="3.048" y2="1.4986" width="0.1524" layer="39"/>
+<wire x1="3.048" y1="1.4986" x2="3.048" y2="-1.4986" width="0.1524" layer="39"/>
+<wire x1="3.048" y1="-1.4986" x2="2.9718" y2="-1.4986" width="0.1524" layer="39"/>
+<wire x1="-2.9718" y1="-1.4986" x2="-3.048" y2="-1.4986" width="0.1524" layer="39"/>
+<wire x1="-2.9718" y1="-2.8194" x2="-2.9718" y2="-1.4986" width="0.1524" layer="39"/>
+<wire x1="-2.9718" y1="1.4986" x2="-2.9718" y2="2.8194" width="0.1524" layer="39"/>
+<wire x1="-2.9718" y1="2.8194" x2="2.9718" y2="2.8194" width="0.1524" layer="39"/>
+<wire x1="2.9718" y1="2.8194" x2="2.9718" y2="1.4986" width="0.1524" layer="39"/>
+<wire x1="2.9718" y1="-1.4986" x2="2.9718" y2="-2.8194" width="0.1524" layer="39"/>
+<wire x1="2.9718" y1="-2.8194" x2="-2.9718" y2="-2.8194" width="0.1524" layer="39"/>
+<polygon width="0.1524" layer="39">
+<vertex x="-3.048" y="-1.4986"/>
+<vertex x="-3.048" y="1.4986"/>
+<vertex x="-2.9718" y="1.4986"/>
+<vertex x="-2.9718" y="2.8194"/>
+<vertex x="2.9718" y="2.8194"/>
+<vertex x="2.9718" y="1.4986"/>
+<vertex x="3.048" y="1.4986"/>
+<vertex x="3.048" y="-1.4986"/>
+<vertex x="2.9718" y="-1.4986"/>
+<vertex x="2.9718" y="-2.8194"/>
+<vertex x="-2.9718" y="-2.8194"/>
+<vertex x="-2.9718" y="-1.4986"/>
+</polygon>
+<wire x1="-2.9972" y1="-2.8448" x2="2.9972" y2="-2.8448" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="-2.8448" x2="2.9972" y2="-1.6256" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="2.8448" x2="-2.9972" y2="2.8448" width="0.1524" layer="21"/>
+<wire x1="-2.9972" y1="2.8448" x2="-2.9972" y2="1.6256" width="0.1524" layer="21"/>
+<wire x1="-2.9972" y1="-1.6256" x2="-2.9972" y2="-2.8448" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="1.6256" x2="2.9972" y2="2.8448" width="0.1524" layer="21"/>
+<wire x1="-4.064" y1="0" x2="-4.2164" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-4.2164" y1="0" x2="-4.064" y2="0" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-2.8702" y1="-2.7178" x2="2.8702" y2="-2.7178" width="0.1524" layer="51"/>
+<wire x1="2.8702" y1="-2.7178" x2="2.8702" y2="2.7178" width="0.1524" layer="51"/>
+<wire x1="2.8702" y1="2.7178" x2="-2.8702" y2="2.7178" width="0.1524" layer="51"/>
+<wire x1="-2.8702" y1="2.7178" x2="-2.8702" y2="-2.7178" width="0.1524" layer="51"/>
+<wire x1="-2.286" y1="0" x2="-2.4384" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-2.4384" y1="0" x2="-2.286" y2="0" width="0" layer="51" curve="-180"/>
+<wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
+<wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.2954" y="1.4478"/>
+<vertex x="1.2954" y="1.4478"/>
+<vertex x="1.2954" y="-1.4478"/>
+<vertex x="-1.2954" y="-1.4478"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.2954" y="1.4478"/>
+<vertex x="1.2954" y="1.4478"/>
+<vertex x="1.2954" y="-1.4478"/>
+<vertex x="-1.2954" y="-1.4478"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-1.2954" y="1.4478"/>
+<vertex x="1.2954" y="1.4478"/>
+<vertex x="1.2954" y="-1.4478"/>
+<vertex x="-1.2954" y="-1.4478"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-2.8194" y="2.667"/>
+<vertex x="2.8194" y="2.667"/>
+<vertex x="2.8194" y="1.4478"/>
+<vertex x="-2.8194" y="1.4478"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="-2.8194" y="-1.4478"/>
+<vertex x="2.8194" y="-1.4478"/>
+<vertex x="2.8194" y="-2.667"/>
+<vertex x="-2.8194" y="-2.667"/>
+</polygon>
+<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+</package>
+</packages>
+<symbols>
+<symbol name="IND">
+<pin name="1" x="15.24" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="0" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="12.7" y1="0" x2="12.7" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="7.62" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.27" x2="5.08" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="7.62" y1="1.27" x2="10.16" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<wire x1="10.16" y1="1.27" x2="12.7" y2="1.27" width="0.1524" layer="94" curve="-180"/>
+<text x="-1.9812" y="-4.2672" size="3.4798" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="-0.9144" y="3.3528" size="3.4798" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IHLP2020CZER3R3M01" prefix="L">
+<description>https://www.digikey.com/product-detail/en/vishay-dale/IHLP2020CZER3R3M01/541-1269-2-ND/2092233</description>
+<gates>
+<gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="IND_IHLP-2020CZ">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="IHLP2020CZER3R3M01" constant="no"/>
+<attribute name="VENDOR" value="VISHAY" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="IND_IHLP-2020CZ-M" package="IND_IHLP-2020CZ-M">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="IHLP2020CZER3R3M01" constant="no"/>
+<attribute name="VENDOR" value="VISHAY" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="IND_IHLP-2020CZ-L" package="IND_IHLP-2020CZ-L">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="IHLP2020CZER3R3M01" constant="no"/>
+<attribute name="VENDOR" value="VISHAY" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9919,7 +10171,7 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <part name="C1.6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="8200 pF"/>
 <part name="C1.5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF"/>
 <part name="C1.7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1 uF"/>
-<part name="L1" library="SamacSys_Parts" deviceset="RLB0912-3R3ML" device=""/>
+<part name="L1" library="ind2" deviceset="IHLP2020CZER3R3M01" device=""/>
 <part name="C1.8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 uF"/>
 <part name="C1.9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 uF"/>
 <part name="AGND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
@@ -10099,7 +10351,7 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <attribute name="NAME" x="234.696" y="50.419" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="232.156" y="45.339" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="L1" gate="G$1" x="236.22" y="45.72" smashed="yes">
+<instance part="L1" gate="A" x="236.22" y="45.72" smashed="yes">
 <attribute name="NAME" x="240.03" y="49.53" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="237.49" y="41.91" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -10227,11 +10479,11 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <pinref part="C1.9" gate="G$1" pin="1"/>
 <wire x1="269.24" y1="45.72" x2="276.86" y2="45.72" width="0.1524" layer="91"/>
 <label x="276.86" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="C1.8" gate="G$1" pin="1"/>
-<wire x1="256.54" y1="45.72" x2="261.62" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="269.24" y1="45.72" x2="261.62" y2="45.72" width="0.1524" layer="91"/>
 <junction x="269.24" y="45.72"/>
+<pinref part="L1" gate="A" pin="1"/>
+<wire x1="251.46" y1="45.72" x2="261.62" y2="45.72" width="0.1524" layer="91"/>
 <junction x="261.62" y="45.72"/>
 </segment>
 <segment>
@@ -10681,17 +10933,6 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <wire x1="185.42" y1="45.72" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$14" class="0">
-<segment>
-<wire x1="215.9" y1="45.72" x2="236.22" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="L1" gate="G$1" pin="1"/>
-<pinref part="IC2" gate="G$1" pin="SW"/>
-<pinref part="C1.7" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="48.26" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="48.26" x2="236.22" y2="45.72" width="0.1524" layer="91"/>
-<junction x="236.22" y="45.72"/>
-</segment>
-</net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="C1.7" gate="G$1" pin="2"/>
@@ -10948,6 +11189,17 @@ Created 2016-06-07, Hans Locher&lt;br&gt;
 <label x="226.06" y="106.68" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="(ADC0)PF0"/>
 <wire x1="195.58" y1="116.84" x2="228.6" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="SW"/>
+<pinref part="L1" gate="A" pin="2"/>
+<wire x1="215.9" y1="45.72" x2="236.22" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="C1.7" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="48.26" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="45.72" x2="236.22" y2="48.26" width="0.1524" layer="91"/>
+<junction x="236.22" y="45.72"/>
 </segment>
 </net>
 </nets>
