@@ -2034,9 +2034,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="BATIO" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="67.577" y="8.214" smashed="yes" rot="R90">
-<attribute name="POPULARITY" value="92" x="113.297" y="41.234" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="70.752" y="4.404" size="1.27" layer="27" rot="R90"/>
+<element name="BATIO" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="67.551" y="8.169" smashed="yes" rot="R270">
+<attribute name="POPULARITY" value="92" x="21.831" y="-24.851" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="64.376" y="11.979" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF" x="21.85" y="23.61" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.301" y="24.132" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
@@ -2048,15 +2048,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="63" x="34.318" y="-16.226" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="58.448" y="19.334" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C1.8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 uF" x="46.49" y="7.48" smashed="yes">
-<attribute name="NAME" x="48.539" y="7.258" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="POPULARITY" value="63" x="69.35" y="-24.27" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="46.49" y="7.48" size="1.778" layer="27" display="off"/>
+<element name="C1.8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 uF" x="49.263" y="16.248" smashed="yes" rot="R270">
+<attribute name="NAME" x="49.041" y="14.199" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="POPULARITY" value="63" x="17.513" y="-6.612" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="49.263" y="16.248" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C1.9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 uF" x="46.86" y="4.97" smashed="yes">
-<attribute name="NAME" x="49.009" y="4.348" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="POPULARITY" value="63" x="76.07" y="-26.78" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="46.86" y="4.97" size="1.778" layer="27" display="off"/>
+<element name="C1.9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22 uF" x="47.134" y="16.132" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.512" y="13.983" size="1.27" layer="25" font="vector" ratio="10" rot="R270"/>
+<attribute name="POPULARITY" value="63" x="15.384" y="-13.078" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="47.134" y="16.132" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1 uF" x="57.205" y="6.222" smashed="yes" rot="R180">
 <attribute name="NAME" x="55.67" y="7.099" size="1.27" layer="25" font="vector" ratio="10"/>
@@ -2201,7 +2201,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SPICEPREFIX" value="R" x="37.67" y="-42.62" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R1.3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10000 Ohms" x="67.261" y="13.964" smashed="yes" rot="R90">
-<attribute name="NAME" x="69.4916" y="13.814" size="0.9906" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="NAME" x="69.4916" y="13.433" size="0.9906" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="POPULARITY" value="77" x="124.411" y="45.714" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="124.411" y="45.714" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -2235,30 +2235,30 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="77" x="99.496" y="45.45" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="99.496" y="45.45" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="S1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="43.762" y="22.494" smashed="yes">
-<attribute name="NAME" x="48.5118" y="22.0178" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="POPULARITY" value="92" x="108.532" y="-23.226" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="39.952" y="19.319" size="1.27" layer="27"/>
+<element name="S1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="43" y="23.637" smashed="yes">
+<attribute name="NAME" x="47.7498" y="23.1608" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="POPULARITY" value="92" x="107.77" y="-22.083" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="39.19" y="20.462" size="1.27" layer="27"/>
 </element>
-<element name="S2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="43.762" y="25.592" smashed="yes">
-<attribute name="NAME" x="48.2578" y="25.2968" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="POPULARITY" value="92" x="61.542" y="-26.478" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="39.952" y="22.417" size="1.27" layer="27"/>
+<element name="S2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="43" y="26.735" smashed="yes">
+<attribute name="NAME" x="47.4958" y="26.4398" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="POPULARITY" value="92" x="60.78" y="-25.335" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="39.19" y="23.56" size="1.27" layer="27"/>
 </element>
-<element name="S3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="43.762" y="32.196" smashed="yes">
-<attribute name="NAME" x="48.3038" y="31.7468" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="POPULARITY" value="92" x="70.432" y="-19.874" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="39.952" y="29.021" size="1.27" layer="27"/>
+<element name="S3" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="43" y="33.339" smashed="yes">
+<attribute name="NAME" x="47.5418" y="32.8898" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="POPULARITY" value="92" x="69.67" y="-18.731" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="39.19" y="30.164" size="1.27" layer="27"/>
 </element>
-<element name="S4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="43.762" y="28.894" smashed="yes">
-<attribute name="NAME" x="48.2038" y="28.5718" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="POPULARITY" value="92" x="79.322" y="-23.176" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="39.952" y="25.719" size="1.27" layer="27"/>
+<element name="S4" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="43" y="30.291" smashed="yes">
+<attribute name="NAME" x="47.4418" y="29.7148" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="POPULARITY" value="92" x="78.56" y="-22.033" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="39.19" y="26.862" size="1.27" layer="27"/>
 </element>
-<element name="S5" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="43.762" y="19.08" smashed="yes">
-<attribute name="NAME" x="48.2578" y="18.7498" size="1.27" layer="25" font="vector" ratio="10"/>
-<attribute name="POPULARITY" value="92" x="88.212" y="-32.99" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="39.952" y="15.905" size="1.27" layer="27"/>
+<element name="S5" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X03" package3d_urn="urn:adsk.eagle:package:22458/2" value="" x="43" y="20.223" smashed="yes">
+<attribute name="NAME" x="47.4958" y="19.8928" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="POPULARITY" value="92" x="87.45" y="-31.847" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="39.19" y="17.048" size="1.27" layer="27"/>
 </element>
 <element name="TS" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="65.841" y="2.445" smashed="yes">
 <attribute name="POPULARITY" value="98" x="88.701" y="-43.275" size="1.778" layer="27" display="off"/>
@@ -2294,92 +2294,46 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="S4" pad="2"/>
 <contactref element="S5" pad="2"/>
 <contactref element="L1" pad="1"/>
-<wire x1="43.762" y1="28.894" x2="43.762" y2="32.196" width="0" layer="19" extent="1-1"/>
-<wire x1="43.762" y1="25.592" x2="43.762" y2="28.894" width="0" layer="19" extent="1-1"/>
-<wire x1="43.762" y1="22.494" x2="43.762" y2="25.592" width="0" layer="19" extent="1-1"/>
-<wire x1="43.762" y1="19.08" x2="43.762" y2="22.494" width="0" layer="19" extent="1-1"/>
-<wire x1="37.11" y1="20.43" x2="43.762" y2="19.08" width="0" layer="19" extent="1-1"/>
-<wire x1="51.871" y1="19.363" x2="43.762" y2="19.08" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="30.291" x2="43" y2="33.339" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="26.735" x2="43" y2="30.291" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="23.637" x2="43" y2="26.735" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="20.223" x2="43" y2="23.637" width="0" layer="19" extent="1-1"/>
+<wire x1="37.11" y1="20.43" x2="43" y2="20.223" width="0" layer="19" extent="1-1"/>
+<wire x1="51.871" y1="19.363" x2="43" y2="20.223" width="0" layer="19" extent="1-1"/>
 <wire x1="51.976" y1="15.202" x2="51.871" y2="19.363" width="0" layer="19" extent="1-1"/>
 <wire x1="51.979" y1="13.133" x2="51.976" y2="15.202" width="0" layer="19" extent="1-1"/>
-<wire x1="45.54" y1="7.48" x2="51.979" y2="13.133" width="0" layer="19" extent="1-1"/>
-<wire x1="45.91" y1="4.97" x2="45.54" y2="7.48" width="0" layer="19" extent="1-1"/>
+<wire x1="49.263" y1="17.198" x2="51.979" y2="13.133" width="0" layer="19" extent="1-1"/>
+<wire x1="47.134" y1="17.082" x2="49.263" y2="17.198" width="0" layer="19" extent="1-1"/>
 <wire x1="28.91" y1="17.83" x2="37.11" y2="20.43" width="0" layer="19" extent="1-1"/>
 <wire x1="25.51" y1="26.83" x2="28.91" y2="17.83" width="0" layer="19" extent="1-1"/>
 <wire x1="24.58" y1="32.65" x2="25.51" y2="26.83" width="0" layer="19" extent="1-1"/>
 <wire x1="15.43" y1="20.23" x2="25.51" y2="26.83" width="0" layer="19" extent="1-1"/>
 <wire x1="14.076" y1="5.346" x2="15.43" y2="20.23" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="AGND">
-<contactref element="MYO" pad="2"/>
-<contactref element="S1" pad="3"/>
-<contactref element="S2" pad="3"/>
-<contactref element="S3" pad="3"/>
-<contactref element="S4" pad="3"/>
-<contactref element="S5" pad="3"/>
-<contactref element="C1" pad="2"/>
-<contactref element="U$1" pad="23"/>
-<contactref element="C3" pad="1"/>
-<contactref element="C2" pad="1"/>
-<contactref element="ISP" pad="6"/>
-<contactref element="C1.1" pad="1"/>
-<contactref element="C1.2" pad="1"/>
-<contactref element="C1.3" pad="1"/>
-<contactref element="C1.6" pad="2"/>
-<contactref element="C1.5" pad="2"/>
-<contactref element="IC2" pad="9"/>
-<contactref element="IC2" pad="5"/>
-<contactref element="R1.2" pad="2"/>
-<contactref element="C13" pad="1"/>
-<contactref element="C14" pad="2"/>
-<contactref element="TS" pad="2"/>
-<contactref element="R12" pad="1"/>
-<contactref element="IC1" pad="8"/>
-<contactref element="C16" pad="2"/>
-<contactref element="IC1" pad="20"/>
-<contactref element="C17" pad="1"/>
-<contactref element="C18" pad="2"/>
-<contactref element="BATIO" pad="3"/>
-<contactref element="C1.9" pad="2"/>
-<contactref element="C1.8" pad="2"/>
-<contactref element="LED" pad="2"/>
-<polygon width="0.1524" layer="1">
-<vertex x="11" y="0"/>
-<vertex x="11" y="36.97"/>
-<vertex x="73.97" y="36.97"/>
-<vertex x="73.97" y="0"/>
-</polygon>
-<polygon width="0.1524" layer="16">
-<vertex x="11" y="0"/>
-<vertex x="11" y="36.97"/>
-<vertex x="73.97" y="36.97"/>
-<vertex x="73.97" y="0"/>
-</polygon>
-</signal>
 <signal name="SIGNAL1">
 <contactref element="S1" pad="1"/>
 <contactref element="U$1" pad="29"/>
-<wire x1="37.11" y1="24.43" x2="41.222" y2="22.494" width="0" layer="19" extent="1-1"/>
+<wire x1="37.11" y1="24.43" x2="40.46" y2="23.637" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIGNAL2">
 <contactref element="S2" pad="1"/>
 <contactref element="U$1" pad="30"/>
-<wire x1="37.11" y1="25.23" x2="41.222" y2="25.592" width="0" layer="19" extent="1-1"/>
+<wire x1="37.11" y1="25.23" x2="40.46" y2="26.735" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIGNAL3">
 <contactref element="S3" pad="1"/>
 <contactref element="U$1" pad="32"/>
-<wire x1="37.11" y1="26.83" x2="41.222" y2="32.196" width="0" layer="19" extent="1-1"/>
+<wire x1="37.11" y1="26.83" x2="40.46" y2="33.339" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIGNAL4">
 <contactref element="S4" pad="1"/>
 <contactref element="U$1" pad="31"/>
-<wire x1="37.11" y1="26.03" x2="41.222" y2="28.894" width="0" layer="19" extent="1-1"/>
+<wire x1="37.11" y1="26.03" x2="40.46" y2="30.291" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIGNAL5">
 <contactref element="S5" pad="1"/>
 <contactref element="U$1" pad="27"/>
-<wire x1="37.11" y1="22.83" x2="41.222" y2="19.08" width="0" layer="19" extent="1-1"/>
+<wire x1="37.11" y1="22.83" x2="40.46" y2="20.223" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBUS">
 <contactref element="USB" pad="1"/>
@@ -2504,11 +2458,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C1.3" pad="2"/>
 <contactref element="IC2" pad="8"/>
 <contactref element="R1.3" pad="1"/>
+<wire x1="67.551" y1="10.709" x2="67.261" y2="13.114" width="0" layer="19" extent="1-1"/>
 <wire x1="65.076" y1="14.758" x2="67.261" y2="13.114" width="0" layer="19" extent="1-1"/>
 <wire x1="62.818" y1="14.915" x2="65.076" y2="14.758" width="0" layer="19" extent="1-1"/>
 <wire x1="60.521" y1="14.835" x2="62.818" y2="14.915" width="0" layer="19" extent="1-1"/>
 <wire x1="60.593" y1="16.854" x2="60.521" y2="14.835" width="0" layer="19" extent="1-1"/>
-<wire x1="67.577" y1="5.674" x2="67.261" y2="13.114" width="0" layer="19" extent="1-1"/>
 <wire x1="56.255" y1="6.222" x2="60.521" y2="14.835" width="0" layer="19" extent="1-1"/>
 <wire x1="32.017" y1="5.746" x2="56.255" y2="6.222" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2517,7 +2471,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$1" pad="36"/>
 <contactref element="R6" pad="1"/>
 <contactref element="R14" pad="1"/>
-<wire x1="33.71" y1="29.43" x2="67.577" y2="8.214" width="0" layer="19" extent="1-1"/>
+<wire x1="33.71" y1="29.43" x2="67.551" y2="8.169" width="0" layer="19" extent="1-1"/>
 <wire x1="35.21" y1="33.46" x2="33.71" y2="29.43" width="0" layer="19" extent="1-1"/>
 <wire x1="24.689" y1="8.498" x2="33.71" y2="29.43" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2629,6 +2583,84 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C1.7" pad="1"/>
 <wire x1="58.448" y1="20.284" x2="60.593" y2="19.394" width="0" layer="19" extent="1-1"/>
 <wire x1="55.935" y1="19.363" x2="58.448" y2="20.284" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND">
+<contactref element="IC2" pad="9"/>
+<contactref element="IC2" pad="5"/>
+<contactref element="C1.5" pad="2"/>
+<contactref element="C1.1" pad="1"/>
+<contactref element="C1.2" pad="1"/>
+<contactref element="C1.3" pad="1"/>
+<contactref element="MYO" pad="2"/>
+<contactref element="S1" pad="3"/>
+<contactref element="S2" pad="3"/>
+<contactref element="S3" pad="3"/>
+<contactref element="S4" pad="3"/>
+<contactref element="S5" pad="3"/>
+<contactref element="C1" pad="2"/>
+<contactref element="U$1" pad="23"/>
+<contactref element="C3" pad="1"/>
+<contactref element="C2" pad="1"/>
+<contactref element="ISP" pad="6"/>
+<contactref element="C13" pad="1"/>
+<contactref element="C14" pad="2"/>
+<contactref element="TS" pad="2"/>
+<contactref element="R12" pad="1"/>
+<contactref element="IC1" pad="8"/>
+<contactref element="C16" pad="2"/>
+<contactref element="IC1" pad="20"/>
+<contactref element="C17" pad="1"/>
+<contactref element="C18" pad="2"/>
+<contactref element="BATIO" pad="3"/>
+<contactref element="C1.9" pad="2"/>
+<contactref element="C1.8" pad="2"/>
+<contactref element="LED" pad="2"/>
+<polygon width="0.1524" layer="1">
+<vertex x="11" y="0"/>
+<vertex x="11" y="36.97"/>
+<vertex x="73.97" y="36.97"/>
+<vertex x="73.97" y="0"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="11" y="0"/>
+<vertex x="11" y="36.97"/>
+<vertex x="73.97" y="36.97"/>
+<vertex x="73.97" y="0"/>
+</polygon>
+<wire x1="63.305" y1="18.759" x2="70.201" y2="19.693" width="0" layer="19" extent="1-1"/>
+<wire x1="60.593" y1="20.664" x2="63.305" y2="18.759" width="0" layer="19" extent="1-1"/>
+<wire x1="62.818" y1="13.015" x2="63.305" y2="18.759" width="0" layer="19" extent="1-1"/>
+<wire x1="65.076" y1="12.858" x2="62.818" y2="13.015" width="0" layer="19" extent="1-1"/>
+<wire x1="60.521" y1="12.935" x2="62.818" y2="13.015" width="0" layer="19" extent="1-1"/>
+<wire x1="58.155" y1="6.222" x2="60.521" y2="12.935" width="0" layer="19" extent="1-1"/>
+<wire x1="54.447" y1="9.136" x2="58.155" y2="6.222" width="0" layer="19" extent="1-1"/>
+<wire x1="49.263" y1="15.298" x2="54.447" y2="9.136" width="0" layer="19" extent="1-1"/>
+<wire x1="47.134" y1="15.182" x2="49.263" y2="15.298" width="0" layer="19" extent="1-1"/>
+<wire x1="67.551" y1="5.629" x2="65.076" y2="12.858" width="0" layer="19" extent="1-1"/>
+<wire x1="67.111" y1="2.445" x2="67.551" y2="5.629" width="0" layer="19" extent="1-1"/>
+<wire x1="37.448" y1="9.926" x2="49.263" y2="15.298" width="0" layer="19" extent="1-1"/>
+<wire x1="35.267" y1="6.996" x2="37.448" y2="9.926" width="0" layer="19" extent="1-1"/>
+<wire x1="31.267" y1="8.496" x2="35.267" y2="6.996" width="0" layer="19" extent="1-1"/>
+<wire x1="26.958" y1="11.867" x2="31.267" y2="8.496" width="0" layer="19" extent="1-1"/>
+<wire x1="32.969" y1="2.012" x2="35.267" y2="6.996" width="0" layer="19" extent="1-1"/>
+<wire x1="24.909" y1="6.26" x2="26.958" y2="11.867" width="0" layer="19" extent="1-1"/>
+<wire x1="19.463" y1="13.529" x2="26.958" y2="11.867" width="0" layer="19" extent="1-1"/>
+<wire x1="15.43" y1="15.15" x2="19.463" y2="13.529" width="0" layer="19" extent="1-1"/>
+<wire x1="21.51" y1="19" x2="19.463" y2="13.529" width="0" layer="19" extent="1-1"/>
+<wire x1="20.9" y1="23.61" x2="21.51" y2="19" width="0" layer="19" extent="1-1"/>
+<wire x1="14.076" y1="7.886" x2="15.43" y2="15.15" width="0" layer="19" extent="1-1"/>
+<wire x1="37.11" y1="19.63" x2="37.448" y2="9.926" width="0" layer="19" extent="1-1"/>
+<wire x1="45.54" y1="20.223" x2="37.11" y2="19.63" width="0" layer="19" extent="1-1"/>
+<wire x1="45.54" y1="23.637" x2="45.54" y2="20.223" width="0" layer="19" extent="1-1"/>
+<wire x1="45.54" y1="26.735" x2="45.54" y2="23.637" width="0" layer="19" extent="1-1"/>
+<wire x1="45.54" y1="30.291" x2="45.54" y2="26.735" width="0" layer="19" extent="1-1"/>
+<wire x1="45.54" y1="33.339" x2="45.54" y2="30.291" width="0" layer="19" extent="1-1"/>
+<wire x1="27.12" y1="32.65" x2="20.9" y2="23.61" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="AGND">
+<contactref element="C1.6" pad="2"/>
+<contactref element="R1.2" pad="2"/>
+<wire x1="70.33" y1="17.623" x2="70.121" y2="21.968" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -2063,9 +2063,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="63" x="36.885" y="45.592" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="57.205" y="6.222" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7 uF" x="28.272" y="6.768" smashed="yes" rot="R180">
-<attribute name="POPULARITY" value="63" x="-14.908" y="30.898" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="28.272" y="6.768" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="4.7 uF" x="25.859" y="6.26" smashed="yes" rot="R180">
+<attribute name="POPULARITY" value="63" x="-17.321" y="30.39" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="25.859" y="6.26" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="47 nF" x="29.515" y="3.585" smashed="yes" rot="R90">
 <attribute name="POPULARITY" value="63" x="61.265" y="39.145" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2216,7 +2216,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SPICEPREFIX" value="R" x="112.66" y="-39.527" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="12 Ohms" x="25.539" y="8.498" smashed="yes">
-<attribute name="NAME" x="22.999" y="9.7934" size="0.9906" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="22.237" y="8.0154" size="0.9906" layer="25" font="vector" ratio="10"/>
 <attribute name="POPULARITY" value="77" x="53.479" y="-63.892" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="53.479" y="-63.892" size="1.778" layer="27" display="off"/>
 </element>
@@ -2573,7 +2573,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C14" pad="1"/>
 <contactref element="R13" pad="2"/>
 <wire x1="31.267" y1="6.996" x2="52.45" y2="6.83" width="0" layer="19" extent="1-1"/>
-<wire x1="29.222" y1="6.768" x2="31.267" y2="6.996" width="0" layer="19" extent="1-1"/>
+<wire x1="26.809" y1="6.26" x2="31.267" y2="6.996" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="IC1" pad="9"/>
